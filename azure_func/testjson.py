@@ -1,3 +1,8 @@
+import azure.functions as func
+import pytest
+from unittest.mock import Mock
+from . import main 
+
 def test_with_json_body():
     # Create a mock HTTP request with a JSON body containing a name parameter
     req = Mock(func.HttpRequest)
