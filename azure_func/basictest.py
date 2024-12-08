@@ -1,7 +1,7 @@
 import azure.functions as func
 import pytest
 from unittest.mock import Mock
-from __init__ import main   # Adjust the import based on your file structure
+import main   # Adjust the import based on your file structure
 
 def test_main():
     # Create a mock HTTP request
