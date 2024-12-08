@@ -4,3 +4,4 @@
 #test changes v1
 
 azure-functions
+pytest
